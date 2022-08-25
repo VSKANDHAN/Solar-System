@@ -1,0 +1,57 @@
+
+#bg{
+    background-image: url('bg.gif');
+    background-size:cover;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+  
+    
+}
+h1{
+    color:white;
+    text-align: center;;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+#weightc{
+    color: yellow;
+}
+#inputs{
+   text-align: center;
+   margin-top: 100px;
+ 
+}
+
+input,button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+}
+#planet{
+    
+    background-color: rgba(148, 148, 148, 0.219);
+    display: flex;
+    width: 60%;
+    height: auto;
+    
+   
+    margin:auto;
+    border-radius: 10px;
+   
+   justify-content: space-around;
+
+}
+#weight{
+    color:white;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: auto;
+}
+
+
