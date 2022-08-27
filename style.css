@@ -1,15 +1,8 @@
-
-#bg{
-    background-image: url('bg.gif');
+body{
+    background-image:url('bg.gif');
     background-size:cover;
-    position:absolute;
-    top:0px;
-    right:0px;
-    bottom:0px;
-    left:0px;
-  
-    
 }
+
 h1{
     color:white;
     text-align: center;;
@@ -63,7 +56,10 @@ img{
 @media  (max-width: 768px){
     #planet{
         width: 90%;
-        height:max-content;
+        height:auto;
+       
+       display: flex;
+       flex-direction: column;
 
 }
 #weight{
@@ -71,10 +67,12 @@ img{
     text-align: center;
     margin: 20px;
 }
-#planet{
-    display: flex;
-    flex-direction: column;
+#weight:empty{
+    display: none;
 }
+
+
+
 }
     
 
