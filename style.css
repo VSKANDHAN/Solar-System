@@ -46,6 +46,13 @@ input,button{
    justify-content: space-around;
 
 }
+img{
+    width:auto;
+    margin:0 auto;
+    display:block;
+    float:none;
+    max-width:100%;   
+}
 #weight{
     color:white;
     font-size: 26px;
@@ -53,5 +60,23 @@ input,button{
     font-weight: bold;
     margin: auto;
 }
+@media  (max-width: 768px){
+    #planet{
+        width: 90%;
+        height:max-content;
+
+}
+#weight{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+#planet{
+    display: flex;
+    flex-direction: column;
+}
+}
+    
+
 
 
